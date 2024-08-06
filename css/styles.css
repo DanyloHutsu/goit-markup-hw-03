@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
     font-style: normal;
 }
 
-.address-menu{
+.contacts-menu{
     list-style-type: none;
     display: flex;
     gap: 40px;
@@ -204,7 +204,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .experience-items{
     list-style-type: none;
     margin-right: 0;
-    flex-basis: calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
 }
 
 .title-exp{
