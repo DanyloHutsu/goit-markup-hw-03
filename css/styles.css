@@ -53,8 +53,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .nav-menu{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-logo{
@@ -87,6 +85,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
 
 .nav-menu-list{
         list-style-type: none;
+        padding-top: 24px;
+            padding-bottom: 24px;
 }
 
 .nav-menu-list :hover{
@@ -383,8 +383,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
         text-transform: uppercase;
         color: #4d5ae5;
         text-decoration: none;
-        display: inline-block;
             margin-bottom: 16px;
+            display: inline-block;
 }
 
 .footer{
