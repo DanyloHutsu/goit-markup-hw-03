@@ -192,12 +192,9 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 
 .experience{
-    padding-left: 156px;
-        padding-right: 156px;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding: 0;
 }
 
 .experience-menu{
