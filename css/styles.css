@@ -27,10 +27,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
     margin-bottom: 0;
 }
 
-ul{
-    padding: 0;
-}
-
 .header-container{
     display: flex;
 }
@@ -42,7 +38,7 @@ ul{
     padding-right: 15px;
 }
 
-.nav-container-header{
+.nav-header{
     display: flex;
     align-items: center;
 }
@@ -77,6 +73,7 @@ ul{
 .nav-menu{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 40px;
 }
 
