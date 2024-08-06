@@ -4,7 +4,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-.img{
+img{
     display: block;
 }
 
@@ -29,7 +29,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
 
 .header-container{
     display: flex;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .container{
@@ -42,10 +41,13 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .nav-container-header{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header{
         background: #fff;
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-menu{
@@ -85,8 +87,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
 
 .nav-menu-list{
         list-style-type: none;
-        padding-top: 24px;
-        padding-bottom: 24px;
 }
 
 .nav-menu-list :hover{
@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
     font-style: normal;
 }
 
-.header-contacts{
+.contacts{
     list-style-type: none;
     display: flex;
     gap: 40px;
@@ -302,7 +302,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
         text-align: center;
 }
 
-.container-name{
+.name-container{
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -316,8 +316,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
         align-items: center;
         margin-top: 120px;
         margin-bottom: 120px;
-        margin-left: 156px;
-        margin-right: 156px;
+        padding: 0;
 }
 
 .portfolio{
@@ -409,6 +408,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 
 .footer-logo-part{
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text{
