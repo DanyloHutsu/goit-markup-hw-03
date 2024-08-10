@@ -24,6 +24,7 @@ img{
 
 h1,h2,h3,h4,h5,h6,p,ul{
     margin-top: 0;
+    padding: 0;
     margin-bottom: 0;
 }
 
@@ -105,6 +106,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 
 .address-nav{
     font-style: normal;
+    margin-left: auto;
 }
 
 .menu{
@@ -139,16 +141,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
 
 }
 
-.container-hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding-top: 168px;
-    padding-bottom: 168px;
-}
-
 .hero-title{
     font-weight: 700;
     max-width: 496px;
@@ -157,17 +149,18 @@ h1,h2,h3,h4,h5,h6,p,ul{
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 }
 
-.btn{
+.btn {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         /* line-height: 24px; */
         line-height: 150%;
+        border: none;
         letter-spacing: 0.04em;
         border-radius: 4px;
             padding: 16px 32px;
@@ -178,12 +171,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background: #4d5ae5;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    border: none;
+    margin: 0 auto;
+        display: block;
 }
 
 .btn:hover{
@@ -208,7 +197,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .experience-items{
     list-style-type: none;
     margin-right: 0;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }
 
 .title-exp{
@@ -296,18 +285,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
     padding-bottom: 32px;
 }
 
-.container-port{
-    width: 1128px;
-        height: 1000px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 120px;
-        margin-bottom: 120px;
-        padding: 0;
-}
-
 .portfolio{
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -322,7 +299,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    display: flex;
     margin-bottom: 72px;
 }
 
